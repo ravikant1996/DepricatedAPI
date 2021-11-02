@@ -30,3 +30,11 @@ dependencyResolutionManagement {
 //in this project
 ProgressDialog is deprecated.What is the alternate one to use? ProgressBar
 [deprecation] CONNECTIVITY_ACTION in ConnectivityManager has been deprecated??
+[deprecation] getExternalStoragePublicDirectory(String) in Environment has been deprecated??
+[deprecation] NetworkInfo in android.net has been deprecated??
+[deprecation] NetworkInfo in android.net has been deprecated??
+[deprecation] getActiveNetworkInfo() in ConnectivityManager has been deprecated??
+[deprecation] getType() in NetworkInfo has been deprecated??
+[deprecation] TYPE_WIFI in ConnectivityManager has been deprecated??
+[deprecation] getType() in NetworkInfo has been deprecated??
+[deprecation] TYPE_MOBILE in ConnectivityManager has been deprecated??
