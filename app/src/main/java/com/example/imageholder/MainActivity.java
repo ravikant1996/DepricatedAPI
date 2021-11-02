@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         download = findViewById(R.id.download);
         imageView = findViewById(R.id.imageView);
         MyReceiver = new BroadcastListener();
-        registerReceiver(MyReceiver, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
+        registerReceiver(MyReceiver, new IntentFilter());
 
         download.setOnClickListener(new View.OnClickListener() {
             @Override

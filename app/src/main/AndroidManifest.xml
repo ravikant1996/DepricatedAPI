@@ -28,10 +28,6 @@
             android:name=".NetworkUtil.BroadcastListener"
             android:enabled="true"
             android:exported="false">
-            <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-            </intent-filter>
         </receiver>
     </application>
 
