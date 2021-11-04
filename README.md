@@ -2,7 +2,9 @@
 DepricatedAPI finding
 
 **step 1:-**
+\n
 build.gradle(project level):-
+\n
 allprojects {
     repositories {
         google()
