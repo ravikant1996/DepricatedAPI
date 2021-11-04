@@ -9,9 +9,9 @@ DepricatedAPI finding
         google()
         mavenCentral()
         maven { url "https://jitpack.io" }
-    }**
+  }
 <!--     //this code passing -->
-    **gradle.projectsEvaluated {
+    gradle.projectsEvaluated {
         tasks.withType(JavaCompile) {
             options.compilerArgs << "-Xlint:deprecation"
         }
