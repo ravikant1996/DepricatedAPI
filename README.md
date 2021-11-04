@@ -2,22 +2,21 @@
 DepricatedAPI finding
 
 **step 1:-**
-\n
-build.gradle(project level):-
-\n
-allprojects {
+**build.gradle(project level):-**
+
+**allprojects {
     repositories {
         google()
         mavenCentral()
         maven { url "https://jitpack.io" }
-    }
+    }**
     //this code passing
-    gradle.projectsEvaluated {
+    **gradle.projectsEvaluated {
         tasks.withType(JavaCompile) {
             options.compilerArgs << "-Xlint:deprecation"
         }
     }
-}
+}**
 
 **step 2:-**
 settings.gradle:-
